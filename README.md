@@ -20,7 +20,7 @@ just example markdown for reference.
 ### IPC
 
 All IPC is implemented to conform with the
-[Inter-Process Communications Specification](https://docs.google.com/document/d/1IV11BaFOwHDgTCNphL3VkY146980HhrXuA-PJkL7QBY/edit?usp=sharing)
+[Inter-Process Communications Specification](https://docs.google.com/document/d/blah-blah-blah)
 
 ### Threads
 
@@ -30,7 +30,7 @@ to be running, before they can be started.  This requires control over the
 order of startup and confirmation that a started thread is actually ready to
 start processing events / requests.  This requirement is fulfilled by using a
 synchronized thread starting function....
-[synced_thread_start()](https://github.com/dailey-report/playground/src/some_source_file.c#L28)
+[synced_thread_start()](https://github.com/dailey-report/playground/src/some_source_file.c#L41)
 to start each thread only after the previously started thread has reported it
 is ready.
 
