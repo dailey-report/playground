@@ -8,6 +8,8 @@ Testing and experimentation with source control using git and github.
 If this was a project of significant size, a longer description of the
 purpose and details of the project would be here.
 
+This line added during rebase experimentation.
+
 ### Sub-Topic
 
 This is a sub-topic section.
