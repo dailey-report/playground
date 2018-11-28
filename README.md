@@ -32,7 +32,7 @@ to be running, before they can be started.  This requires control over the
 order of startup and confirmation that a started thread is actually ready to
 start processing events / requests.  This requirement is fulfilled by using a
 synchronized thread starting function....
-[synced_thread_start()](https://github.com/dailey-report/playground/src/some_source_file.c#L41)
+[synced_thread_start()](https://github.com/dailey-report/playground/blob/master/src/some_source_file.c#L39)
 to start each thread only after the previously started thread has reported it
 is ready.
 
