@@ -1,6 +1,8 @@
 Playground Repository
 =====================
 
+Change for testing `git revert`.
+
 Testing and experimentation with source control using git and github.
 
 ## Overview
